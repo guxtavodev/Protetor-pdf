@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "repl-nix-protetor-pdf"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "repl_nix_protetor_pdf"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+reportlab = "^4.2.2"
+werkzeug = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
